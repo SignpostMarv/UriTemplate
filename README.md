@@ -209,6 +209,10 @@ Using `composer`
 }
 ```
 
+## Development
+
+Clone this repo then `git submodule update --init --recursive && composer install`
+
 ### Changelogs
 
 * **0.2.0** Add a new modifier `%` which allows user to use `list[]=a&list[]=b` query pattern.
